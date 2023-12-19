@@ -1,0 +1,220 @@
+*{
+    margin:  0px;
+    padding: 0px;
+}
+.container {
+    width:  1140px;
+    margin: 0 auto;
+}
+body {
+    font-family: sans-serif;
+}
+p {
+    font-size:   16px;
+    line-height: 26px;
+    color:       #1F3F68;
+}
+/*-----------------------------------------------*/
+
+.h2_top, .p_top{
+    text-align: center;
+}
+/*-----------------------------------------------*/
+
+.h4_section{
+    font-size:   20px;
+    line-height: 30px;
+    color:       #1F3F68;
+}
+
+.ul_section {
+    list-style-type: none;
+}
+
+.input_section,.textarea_section{
+    border:        1px solid #356EAD;
+    width:         350px;
+    border-radius: 10px;
+    opacity:       0.4;
+    box-sizing:    border-box;
+}
+.input_section{
+    height: 50px;
+}
+.textarea_section{
+    height: 200px;
+}
+
+.button_section{
+    background:     #5A98D0;
+    box-shadow:     5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius:  10px;
+    font-weight:    500;
+    font-size:      16px;
+    line-height:    26px;
+    text-align:     center;
+    color:          #FFFFFF;
+    text-transform: uppercase;
+    height:         50px;
+    width:          350px;
+}
+
+/*-----------------------------------------------*/
+.h3_bottom{
+    font-size:  36px;
+    text-align: left;
+}
+
+.ul_bottom {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.menu_a:before {
+    content: "A."
+}
+.menu_t:before {
+    content: "T."
+}
+.menu_e:before {
+    content: "E."
+}
+
+
+/* -------------------- TOP -------------------- */
+
+.top{
+    border:       1px solid red;
+    margin-bottom:25px;
+    box-sizing:   border-box;
+}
+
+.top__content{
+    border:      1px solid purple;
+    margin-left: 25px;
+    margin-right:25px;
+    box-sizing:  border-box;
+}
+
+.menu{
+    border:       1px solid green;
+    margin-top:   25px;
+    margin-bottom:25px;
+    padding:      10px;
+    box-sizing:   border-box;
+}
+
+.top__info{
+    border:       1px solid blue;
+    margin-bottom:25px;
+    padding:      10px;
+    box-sizing:   border-box;
+}
+/*-----------------------------------------------*/
+/* ----------------- SECTIONS ------------------ */
+.section{
+    border:          1px solid purple;
+    margin:          25px;
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: space-around;
+    box-sizing:      border-box;
+}
+
+.contacts{
+    border:     1px solid green;
+    margin:     25px;
+    padding:    25px;
+    height:     800px;
+    box-sizing: border-box;
+}
+.contacts_img{
+    border:     1px solid red;
+    margin:     25px;
+    padding:    25px;
+    box-sizing: border-box;
+}
+.contacts_address,.contacts_phone,.contacts_service{
+    border:     1px solid red;
+    margin:     25px;
+    padding:    25px;
+    box-sizing: border-box;
+}
+
+.message{
+    border:     1px solid green;
+    margin:     25px;
+    padding:    25px;
+    height:     800px;
+    box-sizing: border-box;
+}
+.message_header{
+    border:        1px solid red;
+    margin-top:    25px;
+    margin-bottom: 100px;
+    box-sizing:    border-box;
+}
+
+.message_label_name, .message_input_name,.message_label_email,
+.message_input_email,.message_label_text,.message_input_text{
+    border:     1px solid red;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.message_button {
+    border:     1px solid red;
+    padding:    10px;
+    box-sizing: border-box;
+}
+/*-----------------------------------------------*/
+.map{
+    border: 1px solid purple;
+    margin: 25px;
+
+    box-sizing: border-box;
+}
+/*-----------------------------------------------*/
+/* ------------------ BOTTOM ------------------- */
+.bottom{
+    border:     1px solid red;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+.bottom__content{
+    border:     1px solid orange;
+    margin:     25px;
+    box-sizing: border-box;
+}
+
+.bottom__info{
+    border:       1px solid pink;
+    width:        495px;
+    margin-top:   25px;
+    margin-bottom:25px;
+    box-sizing:   border-box;
+}
+.hr-style{
+	margin:     20px 25px;
+	padding:    0;
+	height:     0;
+	border-top: 4px solid grey;
+}
+
+.bottom__contacts{
+    border:      1px solid green;
+    margin-left: 25px;
+    margin-right:25px;
+}
+
+.bottom__rights{
+    border:        1px solid grey;
+    box-sizing:    border-box;
+    margin-bottom: 25px;
+}
+
+/*-----------------------------------------------*/
